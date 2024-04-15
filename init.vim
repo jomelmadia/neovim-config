@@ -9,10 +9,17 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'crusoexia/vim-monokai'
   Plug 'shaunsingh/solarized.nvim'
   Plug 'morhetz/gruvbox'  
+  Plug 'wojciechkepka/vim-github-dark'
 
   " git command for vim   
   Plug 'tpope/vim-fugitive'
+
+  " surround
+  Plug 'tpope/vim-surround'
  
+  " vim rails 
+  Plug 'tpope/vim-rails'
+  
   " Show git changes in a file 
   Plug 'airblade/vim-gitgutter'
 
@@ -27,6 +34,9 @@ call plug#begin('~/.config/nvim/plugged')
 
   "typescipt highligthing   
   Plug 'leafgarland/typescript-vim'    
+
+  " vim csv editor
+  Plug 'chrisbra/csv.vim'
 
 call plug#end()
 
